@@ -9,6 +9,30 @@
   margin: 0 auto;
 }
 
+.project-image {
+  width: 100%;
+  display: flex;
+}
+
+.project-image-group {
+  position: relative;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #4c524e79;
+}
+
+.project-heading {
+  font-size: 24px;
+  line-height: 30px;
+  margin: 17px 0;
+}
+
 .section:nth-child(2n) {
   background-color: #94b49f;
 }
