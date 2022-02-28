@@ -1,0 +1,13 @@
+/* MOBILE */
+
+* {
+  margin: 0;
+}
+
+.section:nth-child(2n) {
+  background-color: rgba(240, 128, 128, 0.441);
+}
+
+.section:nth-child(2n + 1) {
+  background-color: rgba(251, 236, 236, 0.441);
+}
