@@ -16,7 +16,8 @@ header img {
   background-color: #fff;
 }
 
-.section:nth-child(2n + 1) {
+.section:nth-child(2n + 2) {
+  /* Creates different bg-colors for every other section */
   background-color: #f4f4f4;
 }
 
@@ -41,6 +42,22 @@ header img {
   right: 0;
   bottom: 0;
   background: #4c524e79;
+}
+
+.big-project-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  margin: 41px 0;
+}
+
+.project-type {
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .project-heading h2 {
