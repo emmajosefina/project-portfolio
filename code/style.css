@@ -21,9 +21,15 @@
   position: relative;
 }
 
+.header-image > .project-overlay {
+  z-index: 1;
+  background: #b2a69a5c;
+}
+
 .portfolio-presentation {
   margin: 121px 131px 197px 24px;
   color: #fff;
+  z-index: 2;
 }
 
 .portfolio-presentation > h1 {
@@ -58,6 +64,7 @@
   bottom: -24px;
   right: 24px;
   border: 2px solid whitesmoke;
+  z-index: 1;
 }
 
 .header-text-group {
@@ -69,6 +76,7 @@
 }
 
 /* Sections */
+
 .section:nth-child(2n) {
   background-color: #fff;
 }
@@ -78,10 +86,17 @@
   background-color: #f4f4f4;
 }
 
+.header-container {
+  width: 375px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   width: 375px;
   margin: 0 auto;
-  padding-bottom: 44px;
+  padding: 49px 24px 43px 24px;
   display: flex;
   flex-direction: column;
 }
