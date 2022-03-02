@@ -51,6 +51,7 @@
   font-size: 13px;
   line-height: 18px;
   font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
 }
 
 .portfolio-name > span {
