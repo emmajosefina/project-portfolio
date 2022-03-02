@@ -94,9 +94,9 @@
 }
 
 .container {
-  width: 375px;
+  width: 327px;
   margin: 0 auto;
-  padding: 49px 24px 43px 24px;
+  padding: 49px 24px 49px 24px;
   display: flex;
   flex-direction: column;
 }
@@ -125,7 +125,6 @@
   font-size: 22px;
   line-height: 27px;
   text-align: center;
-  padding: 41px 0;
   text-transform: uppercase;
 }
 
