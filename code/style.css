@@ -9,16 +9,16 @@
 }
 
 /* Header */
+.nav-icons {
+  margin: 33px 0 0 0;
+}
+
 .header-image {
-  background-image: url(assets/sky-header.jpg);
+  background-image: url(assets/beige.jpg);
   background-size: cover;
   height: 520px;
   background-position-x: 10%;
   position: relative;
-}
-
-.nav-icons {
-  margin: 33px 0 0 0;
 }
 
 .portfolio-presentation {
@@ -51,11 +51,11 @@
   font-weight: 700;
 }
 
-.author {
+.profile-picture {
   width: 180px;
   border-radius: 50%;
   position: absolute;
-  bottom: -20px;
+  bottom: -24px;
   right: 24px;
   border: 2px solid whitesmoke;
 }
@@ -69,7 +69,6 @@
 }
 
 /* Sections */
-
 .section:nth-child(2n) {
   background-color: #fff;
 }
@@ -102,7 +101,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #4c524e79;
+  background: #b2a69a53;
 }
 
 .big-project-heading {
