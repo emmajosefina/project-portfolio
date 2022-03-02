@@ -16,6 +16,7 @@ font-family: 'Roboto', sans-serif; */
   background-size: cover;
   height: 595px;
   background-position-x: 10%;
+  position: relative;
 }
 
 .author {
@@ -46,7 +47,7 @@ font-family: 'Roboto', sans-serif; */
 .container {
   width: 375px;
   margin: 0 auto;
-  position: relative;
+
   padding-bottom: 44px;
   display: flex;
   flex-direction: column;
