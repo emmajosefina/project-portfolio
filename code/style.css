@@ -3,18 +3,17 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
+/* Global styles */
 * {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
-/* Global styles */
-
 /* Header */
 .header-image {
   background-image: url(assets/sky-header.jpg);
   background-size: cover;
-  height: 595px;
+  height: 520px;
   background-position-x: 10%;
   position: relative;
 }
