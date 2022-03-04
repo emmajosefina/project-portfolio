@@ -10,8 +10,18 @@
 
 /* Header */
 .nav-icons {
-  margin: 33px 0 0 0;
+  margin: 20px 4px 0 0;
   z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fa-brands {
+  color: #fff;
+  border: 1px solid rgba(245, 245, 245, 0.676);
+  border-radius: 50%;
+  padding: 18px;
+  margin: 4px;
 }
 
 .header-section {
@@ -24,11 +34,12 @@
 
 .header-image > .project-overlay {
   z-index: 1;
-  background: #b2a69a5c;
+  background: #b2a69a8f;
 }
 
 .portfolio-presentation {
-  margin: 121px 131px 197px 24px;
+  margin-top: 110px;
+  margin-left: 24px;
   color: #fff;
   z-index: 2;
 }
@@ -95,10 +106,6 @@
   flex-direction: column;
 }
 
-.fa-brands {
-  color: #fff;
-}
-
 .container {
   margin: 0 auto;
   padding: 49px 24px 49px 24px;
@@ -148,7 +155,7 @@
 }
 
 footer {
-  background: #b2a69a5c;
+  background: #b2a69a8f;
 }
 
 /* MEDIA QUERY */
