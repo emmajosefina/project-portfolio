@@ -1,11 +1,12 @@
 /* MOBILE */
 
-/* font-family: 'Montserrat', sans-serif;*/
+/* font-family: 'Montserrat', sans-serif;
+  font-family: "Roboto", sans-serif;*/
 
 /* Global styles */
 * {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Header */
@@ -46,6 +47,10 @@
 .header-image > .project-overlay {
   z-index: 1;
   background: #b2a69a8f;
+}
+
+.project-overlay:hover {
+  background: transparent;
 }
 
 .portfolio-presentation {
@@ -112,6 +117,7 @@
 
 .container {
   margin: 0 auto;
+  width: 320px;
   padding: 49px 24px 49px 24px;
   display: flex;
   flex-direction: column;
@@ -120,6 +126,10 @@
 .project-image {
   width: 100%;
   display: flex;
+}
+
+.link-to-projects {
+  text-decoration: none;
 }
 
 .project-image-group {
@@ -176,6 +186,7 @@
   line-height: 27px;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 25px;
 }
 
 .project-heading h2 {
@@ -211,6 +222,11 @@ footer .fa-brands {
 
 footer .fa-stack-overflow {
   width: 15px;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* MEDIA QUERY */
