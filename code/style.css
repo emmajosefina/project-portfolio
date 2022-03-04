@@ -19,7 +19,7 @@
 
 .nav-icons .fa-brands {
   color: #fff;
-  border: 1px solid rgba(245, 245, 245, 0.676);
+  border: 1.1px solid rgba(245, 245, 245, 0.676);
   border-radius: 50%;
   padding: 18px;
   margin: 4px;
@@ -46,7 +46,7 @@
 
 .header-image > .project-overlay {
   z-index: 1;
-  background: #b2a69a8f;
+  background: #504b46b3;
 }
 
 .section .project-overlay:hover {
