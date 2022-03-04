@@ -219,7 +219,22 @@
 
 /* Designing footer */
 footer {
-  background: #8f7066;
+  background-image: url(assets/sand-header-background.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.footer-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #504b469c;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 
 footer > .container {
@@ -234,6 +249,10 @@ footer .fa-brands {
   border-radius: 50%;
   padding: 18px;
   margin: 4px;
+}
+
+footer .big-project-heading {
+  color: #fff;
 }
 
 footer .fa-stack-overflow {
