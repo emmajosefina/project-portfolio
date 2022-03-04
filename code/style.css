@@ -30,7 +30,7 @@
 }
 
 .header-section {
-  background-image: url(assets/beige.jpg);
+  background-image: url(assets/sand-header-background.jpg);
   background-size: cover;
   height: 520px;
   background-position-x: 10%;
@@ -49,7 +49,7 @@
   background: #b2a69a8f;
 }
 
-.project-overlay:hover {
+.section .project-overlay:hover {
   background: transparent;
 }
 
@@ -80,6 +80,22 @@
   line-height: 18px;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
+}
+
+.frontend-developer {
+  background: linear-gradient(
+    28deg,
+    #fd6e6e 15%,
+    #ff7878 0,
+    #ffaeae 30%,
+    #fe85aa 45%,
+    #f46f98 0,
+    #ec2a2a 60%,
+    #f40000 0,
+    #fffdfd 75%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .portfolio-name > span {
@@ -152,7 +168,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #b2a69a8a;
+  background: #504b469c;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   justify-content: center;
