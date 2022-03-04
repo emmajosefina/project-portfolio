@@ -49,10 +49,6 @@
   background: #504b46b3;
 }
 
-.section .project-overlay:hover {
-  background: transparent;
-}
-
 .portfolio-presentation {
   margin-top: 107px;
   margin-left: 24px;
@@ -121,7 +117,7 @@
   box-sizing: border-box;
 }
 
-/* Sections */
+/* Portfolio sections */
 .section:nth-child(2n) {
   background-color: #fff;
 }
@@ -137,6 +133,26 @@
   padding: 49px 24px 49px 24px;
   display: flex;
   flex-direction: column;
+}
+
+.line {
+  border: 1px solid #ff7878;
+  width: 40px;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background: #c82d2d;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+.section .project-overlay:hover {
+  background: transparent;
 }
 
 .project-image {
