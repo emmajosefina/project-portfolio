@@ -85,13 +85,13 @@
 .frontend-developer {
   background: linear-gradient(
     28deg,
-    #fd6e6e 15%,
+    #ff7c7c 15%,
     #ff7878 0,
     #ffaeae 30%,
     #fe85aa 45%,
-    #f46f98 0,
-    #ec2a2a 60%,
-    #f40000 0,
+    #fd92b3 0,
+    #ff2525 60%,
+    #f74444 0,
     #fffdfd 75%
   );
   -webkit-text-fill-color: transparent;
