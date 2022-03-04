@@ -158,14 +158,27 @@
   text-transform: uppercase;
 }
 
+/* Designing footer */
 footer {
   background: #b2a69a8f;
 }
 
+footer > .container {
+  text-align: center;
+  display: table;
+  flex-direction: row;
+}
+
 footer .fa-brands {
   color: #fff;
-  display: flex;
-  flex-direction: row;
+  border: 1px solid rgba(245, 245, 245, 0.676);
+  border-radius: 50%;
+  padding: 18px;
+  margin: 4px;
+}
+
+footer .fa-stack-overflow {
+  width: 15px;
 }
 
 /* MEDIA QUERY */
