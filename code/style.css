@@ -11,7 +11,7 @@
 
 /* Header */
 .nav-icons {
-  margin: 20px 4px 0 0;
+  margin: 20px 14px 0 0;
   z-index: 1;
   display: flex;
   justify-content: flex-end;
@@ -219,7 +219,7 @@
 
 /* Designing footer */
 footer {
-  background: #b2a69a8f;
+  background: #8f7066;
 }
 
 footer > .container {
@@ -243,6 +243,7 @@ footer .fa-stack-overflow {
 .copyright {
   margin-top: 20px;
   font-family: "Montserrat", sans-serif;
+  color: #fff;
 }
 
 /* MEDIA QUERY */
