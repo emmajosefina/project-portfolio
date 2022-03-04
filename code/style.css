@@ -11,7 +11,7 @@
 
 /* Header */
 .nav-icons {
-  margin: 20px 14px 0 0;
+  margin: 20px 18px 0 0;
   z-index: 1;
   display: flex;
   justify-content: flex-end;
@@ -19,9 +19,9 @@
 
 .nav-icons .fa-brands {
   color: #fff;
-  border: 1.1px solid rgba(245, 245, 245, 0.676);
+  border: 1.3px solid rgba(245, 245, 245, 0.676);
   border-radius: 50%;
-  padding: 18px;
+  padding: 16px;
   margin: 4px;
 }
 
@@ -62,7 +62,7 @@
 
 .portfolio-presentation > h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 40px;
+  font-size: 42px;
   line-height: 49px;
   font-weight: 700;
 }
@@ -76,8 +76,8 @@
 
 .portfolio-name {
   text-transform: uppercase;
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 22px;
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
 }
@@ -100,6 +100,7 @@
 
 .portfolio-name > span {
   font-weight: 700;
+  font-size: 16px;
 }
 
 .profile-picture {
