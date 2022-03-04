@@ -11,9 +11,10 @@
 /* Header */
 .nav-icons {
   margin: 33px 0 0 0;
+  z-index: 1;
 }
 
-.header-image {
+.header-section {
   background-image: url(assets/beige.jpg);
   background-size: cover;
   height: 520px;
@@ -87,15 +88,18 @@
   background-color: #f4f4f4;
 }
 
-.header-container {
+.header-content {
   width: 375px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 
+.fa-brands {
+  color: #fff;
+}
+
 .container {
-  width: 327px;
   margin: 0 auto;
   padding: 49px 24px 49px 24px;
   display: flex;
@@ -117,7 +121,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #b2a69a53;
+  background: #b2a69a85;
 }
 
 .big-project-heading {
