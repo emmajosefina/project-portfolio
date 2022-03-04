@@ -127,13 +127,22 @@
   display: block;
 }
 
+.technology-used span {
+  display: inline-block;
+  background: #d4bfa1ba;
+  margin-bottom: 5px;
+  padding: 0.2rem;
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+  margin-right: 5px;
+}
+
 .project-overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: #b2a69a85;
+  background: #b2a69a8a;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   justify-content: center;
@@ -169,18 +178,16 @@
   text-transform: uppercase;
 }
 
-.project-type {
-  font-size: 17px;
+.project-heading h2 {
+  font-size: 20px;
   line-height: 29px;
-  font-weight: 700;
+  margin: 22px 0 10px 0;
   text-transform: uppercase;
+  color: #a97d60;
 }
 
-.project-heading h2 {
-  font-size: 17px;
-  line-height: 29px;
-  margin: 9px 27px 9px 27px;
-  text-transform: uppercase;
+.project-description {
+  margin-top: 15px;
 }
 
 /* Designing footer */
