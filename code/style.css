@@ -242,21 +242,20 @@
   line-height: 22px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 25px;
   color: #d45454;
+  margin-bottom: 25px;
 }
 
 .big-project-heading h2 {
   background: #bcae9b2b;
   display: inline-block;
   padding: 10px 10px;
-  margin-bottom: 10px;
 }
 
 .project-heading h2 {
   font-size: 18px;
   line-height: 29px;
-  margin: 22px 0 10px 0;
+  margin-bottom: 20px;
   text-transform: uppercase;
   color: #936a2f;
   font-family: "Roboto", sans-serif;
