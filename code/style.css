@@ -171,6 +171,14 @@
   background: transparent;
 }
 
+.container-portfolio {
+  margin: 0 auto;
+  width: 320px;
+  padding: 41px 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+}
+
 .project-image {
   width: 100%;
   display: flex;
