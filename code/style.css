@@ -50,10 +50,11 @@
 }
 
 .portfolio-presentation {
-  margin-top: 107px;
-  margin-left: 24px;
   color: #fff;
   z-index: 2;
+  position: absolute;
+  top: 181px;
+  left: 24px;
 }
 
 .portfolio-presentation > h1 {
@@ -123,6 +124,10 @@
   background-color: #f4f4f4;
 }
 
+.section .project-overlay:hover {
+  background: transparent;
+}
+
 .container {
   margin: 0 auto;
   width: 320px;
@@ -165,10 +170,6 @@
 .tech-tools {
   text-align: center;
   line-height: 1.4em;
-}
-
-.section .project-overlay:hover {
-  background: transparent;
 }
 
 .container-portfolio {
@@ -376,16 +377,55 @@ footer .big-project-heading {
   color: #fff;
 }
 
-/* MEDIA QUERY */
+/* MEDIA QUERY FOR TABLET*/
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
   }
 }
 
-/* DESKTOP */
+/* MEDIA QUERY FOR DESKTOP */
 @media screen and (min-width: 1200px) {
+  * {
+    font-size: 25px;
+  }
   .container {
-    width: 1200px;
+    width: 1100px;
+  }
+
+  .profile-picture {
+    right: 100px;
+    top: 378px;
+    width: 270px;
+    height: 270px;
+  }
+
+  .portfolio-presentation {
+    width: 607px;
+    position: absolute;
+    left: 426px;
+    top: 206px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .portfolio-presentation > h1 {
+    font-size: 82px;
+    line-height: 100px;
+  }
+
+  .portfolio-presentation > h2 {
+    font-size: 40px;
+    line-height: 78px;
+  }
+
+  .portfolio-name {
+    font-size: 28px;
+    line-height: 37px;
+  }
+
+  .portfolio-name > span {
+    font-weight: 600;
+    line-height: 37px;
   }
 }
