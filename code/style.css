@@ -243,7 +243,7 @@
   line-height: 29px;
   margin: 22px 0 10px 0;
   text-transform: uppercase;
-  color: #a97d60;
+  color: #7b2c2c;
   font-family: "Roboto", sans-serif;
 }
 
@@ -290,8 +290,8 @@
 }
 
 .for-more-nav-icons .fa-brands {
-  color: #8e6a52;
-  border: 1px solid #a97d60;
+  color: #fff;
+  border: 1px solid #ffffff;
   border-radius: 50%;
   padding: 18px;
   margin: 4px;
@@ -334,10 +334,26 @@ footer > .container {
   text-align: center;
   display: table;
   flex-direction: row;
+  position: relative;
 }
 
 footer .big-project-heading {
-  color: #fff;
+  background: linear-gradient(
+    28deg,
+    #ff7c7c 15%,
+    #ff7878 0,
+    #ffaeae 30%,
+    #fe85aa 45%,
+    #fd92b3 0,
+    #ff2525 60%,
+    #f74444 0,
+    #fffdfd 75%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: lowercase;
+  font-size: 30px;
 }
 
 .copyright {
