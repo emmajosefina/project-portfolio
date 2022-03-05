@@ -137,6 +137,10 @@
   flex-direction: column;
 }
 
+.container-featured-projects {
+  padding: 41px 24px 10px 24px;
+}
+
 .line {
   border: 1px solid #e38282;
   width: 40px;
@@ -436,5 +440,15 @@ footer .big-project-heading {
   .portfolio-name > span {
     font-weight: 600;
     line-height: 37px;
+  }
+
+  .big-project-heading h2 {
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 40px;
+  }
+
+  .nav-icons .fa-stack-overflow {
+    width: 24px;
   }
 }
