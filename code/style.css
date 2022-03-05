@@ -251,7 +251,7 @@
   line-height: 29px;
   margin: 22px 0 10px 0;
   text-transform: uppercase;
-  color: #7b2c2c;
+  color: #936a2f;
   font-family: "Roboto", sans-serif;
 }
 
@@ -353,9 +353,9 @@ footer .big-project-heading {
     #ffaeae 30%,
     #fe85aa 45%,
     #fd92b3 0,
-    #ff2525 60%,
-    #f74444 0,
-    #fffdfd 75%
+    #f75656 60%,
+    #ef6060 0,
+    #f18686 75%
   );
   -webkit-background-clip: text;
   background-clip: text;
