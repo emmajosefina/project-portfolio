@@ -118,7 +118,7 @@
 }
 
 /* Portfolio sections */
-.section:nth-child(2n) {
+.section:nth-child(n) {
   background-color: #fff;
 }
 
