@@ -253,7 +253,6 @@
 .skills-parent {
   display: flex;
   justify-content: center;
-  column-gap: 0.3em;
   font-size: 15.5px;
 }
 
