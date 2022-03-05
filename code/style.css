@@ -250,6 +250,16 @@
   line-height: 1.4em;
 }
 
+.project-text-group-others {
+  padding-bottom: 10px;
+}
+
+.link-to-netlify {
+  text-decoration: none;
+  font-weight: 600;
+  color: #a97d60;
+}
+
 .skills-parent {
   display: flex;
   justify-content: center;
