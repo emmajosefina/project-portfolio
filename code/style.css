@@ -136,7 +136,7 @@
 }
 
 .line {
-  border: 1px solid #ff7878;
+  border: 1px solid #e38282;
   width: 40px;
   display: inline-block;
   margin-bottom: 4px;
@@ -145,7 +145,7 @@
 .dot {
   height: 10px;
   width: 10px;
-  background: #c82d2d;
+  background: #d45454;
   border-radius: 50%;
   display: inline-block;
   margin-left: -10px;
