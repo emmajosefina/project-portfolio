@@ -250,6 +250,24 @@
   line-height: 1.4em;
 }
 
+.skills-parent {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.3em;
+  font-size: 15.5px;
+}
+
+.skills-child {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skills-header {
+  color: #a97d60;
+  font-family: "Roboto", sans-serif;
+}
+
 /* Designing footer */
 footer {
   background-image: url(assets/sand-header-background.jpg);
