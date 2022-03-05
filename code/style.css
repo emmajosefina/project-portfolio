@@ -235,19 +235,26 @@
   height: 100%;
 }
 
-.big-project-heading h2 {
+.big-project-heading {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 22px;
-  line-height: 27px;
+  font-size: 16px;
+  line-height: 22px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 25px;
   color: #d45454;
 }
 
+.big-project-heading h2 {
+  background: #bcae9b2b;
+  display: inline-block;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+
 .project-heading h2 {
-  font-size: 19px;
+  font-size: 18px;
   line-height: 29px;
   margin: 22px 0 10px 0;
   text-transform: uppercase;
