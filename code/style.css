@@ -130,7 +130,7 @@
 .container {
   margin: 0 auto;
   width: 320px;
-  padding: 49px 24px 49px 24px;
+  padding: 41px 24px 41px 24px;
   display: flex;
   flex-direction: column;
 }
@@ -158,11 +158,12 @@
 .presentation-hello-second {
   margin-top: 15px;
   display: block;
-  line-height: 1.3em;
+  line-height: 1.4em;
 }
 
 .tech-tools {
   text-align: center;
+  line-height: 1.4em;
 }
 
 .section .project-overlay:hover {
@@ -236,15 +237,17 @@
 }
 
 .project-heading h2 {
-  font-size: 20px;
+  font-size: 19px;
   line-height: 29px;
   margin: 22px 0 10px 0;
   text-transform: uppercase;
   color: #a97d60;
+  font-family: "Roboto", sans-serif;
 }
 
 .project-description {
   margin-top: 15px;
+  line-height: 1.4em;
 }
 
 /* Designing footer */
