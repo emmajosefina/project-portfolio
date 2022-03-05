@@ -249,13 +249,13 @@
   text-align: center;
   text-transform: uppercase;
   color: #d45454;
-  margin-bottom: 25px;
 }
 
 .big-project-heading h2 {
   background: #bcae9b2b;
   display: inline-block;
   padding: 10px 10px;
+  margin-bottom: 25px;
 }
 
 .project-heading h2 {
@@ -274,6 +274,7 @@
 
 .project-text-group-others {
   padding-bottom: 10px;
+  margin-top: 10px;
 }
 
 .link-to-netlify {
@@ -374,6 +375,7 @@ footer .big-project-heading {
   -webkit-text-fill-color: transparent;
   text-transform: lowercase;
   font-size: 30px;
+  margin-bottom: 25px;
 }
 
 .copyright {
