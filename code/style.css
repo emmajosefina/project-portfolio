@@ -92,6 +92,7 @@
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .portfolio-name > span {
@@ -152,6 +153,7 @@
 
 .presentation-hello {
   line-height: 1.3em;
+  margin-left: 7px;
 }
 
 .presentation-hello-second {
@@ -277,6 +279,12 @@
   font-family: "Roboto", sans-serif;
 }
 
+.skills-header-code {
+  color: #a97d60;
+  font-family: "Roboto", sans-serif;
+  width: 98px;
+}
+
 .for-more-nav-icons {
   text-align: center;
 }
@@ -298,6 +306,14 @@
 footer {
   background-image: url(assets/sand-header-background.jpg);
   background-size: cover;
+  position: relative;
+}
+
+.header-section {
+  background-image: url(assets/sand-header-background.jpg);
+  background-size: cover;
+  height: 520px;
+  background-position-x: 10%;
   position: relative;
 }
 
