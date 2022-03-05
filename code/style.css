@@ -117,11 +117,6 @@
   box-sizing: border-box;
 }
 
-/* Portfolio sections
-.section:nth-child(2n) {
-  background-color: #fff;
-} */
-
 .section:nth-child(2n + 1) {
   /* Creates different bg-colors for every other section */
   background-color: #f4f4f4;
@@ -149,6 +144,10 @@
   border-radius: 50%;
   display: inline-block;
   margin-left: -10px;
+}
+
+.container .top-section {
+  margin-top: 12px;
 }
 
 .presentation-hello {
