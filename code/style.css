@@ -11,10 +11,11 @@
 
 /* Header */
 .nav-icons {
-  margin: 20px 18px 0 0;
   z-index: 1;
   display: flex;
-  justify-content: flex-end;
+  position: absolute;
+  top: 20px;
+  right: 30px;
 }
 
 .nav-icons .fa-brands {
@@ -391,11 +392,19 @@ footer .big-project-heading {
   }
   .container {
     width: 1100px;
+    padding: 100px 410px;
+  }
+
+  .nav-icons {
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    right: 400px;
   }
 
   .profile-picture {
-    right: 100px;
-    top: 378px;
+    right: 400px;
+    top: 330px;
     width: 270px;
     height: 270px;
   }
@@ -410,8 +419,8 @@ footer .big-project-heading {
   }
 
   .portfolio-presentation > h1 {
-    font-size: 82px;
-    line-height: 100px;
+    font-size: 72px;
+    line-height: 78px;
   }
 
   .portfolio-presentation > h2 {
