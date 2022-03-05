@@ -151,6 +151,20 @@
   margin-left: -10px;
 }
 
+.presentation-hello {
+  line-height: 1.3em;
+}
+
+.presentation-hello-second {
+  margin-top: 15px;
+  display: block;
+  line-height: 1.3em;
+}
+
+.tech-tools {
+  text-align: center;
+}
+
 .section .project-overlay:hover {
   background: transparent;
 }
