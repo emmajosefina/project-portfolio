@@ -233,6 +233,7 @@
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 25px;
+  color: #d45454;
 }
 
 .project-heading h2 {
@@ -266,6 +267,23 @@
   font-family: "Roboto", sans-serif;
 }
 
+.for-more-nav-icons {
+  text-align: center;
+}
+
+.for-more-nav-icons .fa-brands {
+  color: #8e6a52;
+  border: 1px solid #a97d60;
+  border-radius: 50%;
+  padding: 18px;
+  margin: 4px;
+  text-align: center;
+}
+
+.for-more-nav-icons .fa-stack-overflow {
+  width: 15px;
+}
+
 /* Designing footer */
 footer {
   background-image: url(assets/sand-header-background.jpg);
@@ -292,20 +310,8 @@ footer > .container {
   flex-direction: row;
 }
 
-footer .fa-brands {
-  color: #fff;
-  border: 1px solid rgba(245, 245, 245, 0.676);
-  border-radius: 50%;
-  padding: 18px;
-  margin: 4px;
-}
-
 footer .big-project-heading {
   color: #fff;
-}
-
-footer .fa-stack-overflow {
-  width: 15px;
 }
 
 .copyright {
