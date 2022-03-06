@@ -434,6 +434,10 @@ footer .big-project-heading {
     margin-left: 0;
   }
 
+  .flex-projects {
+    width: 485px;
+  }
+
   /* .portfolio-presentation > h1 {
     font-size: 72px;
     line-height: 78px;
