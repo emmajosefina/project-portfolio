@@ -268,7 +268,7 @@
 }
 
 .project-description {
-  margin-top: 15px;
+  margin: 15px 0 15px 0;
   line-height: 1.4em;
 }
 
@@ -438,7 +438,7 @@ footer .big-project-heading {
     width: 485px;
   }
 
-  /* .portfolio-presentation > h1 {
+  .portfolio-presentation > h1 {
     font-size: 72px;
     line-height: 78px;
   }
@@ -459,10 +459,10 @@ footer .big-project-heading {
   }
 
   .big-project-heading h2 {
-    font-size: 40px;
-    line-height: 56px;
+    font-size: 30px;
+    line-height: 46px;
     margin-bottom: 40px;
-  } */
+  }
 
   .nav-icons .fa-stack-overflow {
     width: 14px;
