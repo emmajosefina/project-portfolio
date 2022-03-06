@@ -252,7 +252,7 @@
 }
 
 .big-project-heading h2 {
-  background: #bcae9b2b;
+  background: #f4f4f4;
   display: inline-block;
   padding: 10px 10px;
   margin-bottom: 25px;
@@ -393,8 +393,8 @@ footer .big-project-heading {
   }
 
   .portfolio-presentation {
-    top: 250px;
-    left: 145px;
+    top: 270px;
+    left: 115px;
   }
 }
 
