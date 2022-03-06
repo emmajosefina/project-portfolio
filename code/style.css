@@ -392,9 +392,26 @@ footer .big-project-heading {
     width: 50%;
   }
 
+  .profile-picture {
+    position: absolute;
+    bottom: -24px;
+    right: 150px;
+  }
+
   .portfolio-presentation {
     top: 270px;
-    left: 115px;
+    left: 150px;
+    width: 420px;
+  }
+
+  .nav-icons {
+    position: absolute;
+    top: 40px;
+    right: 120px;
+  }
+
+  .skills-header-code {
+    width: 138px;
   }
 }
 
@@ -419,16 +436,16 @@ footer .big-project-heading {
   }
 
   .profile-picture {
-    right: 400px;
+    right: 190px;
     top: 330px;
-    width: 270px;
-    height: 270px;
+    width: 240px;
+    height: 240px;
   }
 
   .portfolio-presentation {
     width: 607px;
     position: absolute;
-    left: 426px;
+    left: 256px;
     top: 206px;
     margin-top: 0;
     margin-left: 0;
@@ -439,8 +456,8 @@ footer .big-project-heading {
   }
 
   .portfolio-presentation > h1 {
-    font-size: 72px;
-    line-height: 78px;
+    font-size: 62px;
+    line-height: 70px;
   }
 
   .portfolio-presentation > h2 {
