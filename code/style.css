@@ -31,7 +31,7 @@
 }
 
 .header-section {
-  background-image: url(assets/sand-header-background.jpg);
+  background-image: url(assets/sand-background.jpg);
   background-size: cover;
   height: 520px;
   background-position-x: 10%;
@@ -324,13 +324,13 @@
 
 /* Designing footer */
 footer {
-  background-image: url(assets/sand-header-background.jpg);
+  background-image: url(assets/sand-background.jpg);
   background-size: cover;
   position: relative;
 }
 
 .header-section {
-  background-image: url(assets/sand-header-background.jpg);
+  background-image: url(assets/sand-background.jpg);
   background-size: cover;
   height: 520px;
   background-position-x: 10%;
