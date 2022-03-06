@@ -383,6 +383,10 @@ footer .big-project-heading {
   color: #fff;
 }
 
+.hidden-items {
+  display: none;
+}
+
 /* MEDIA QUERY FOR TABLET*/
 @media screen and (min-width: 768px) {
   .container {
@@ -413,6 +417,32 @@ footer .big-project-heading {
   .skills-header-code {
     width: 138px;
   }
+
+  .container-featured-projects {
+    padding: 0;
+  }
+
+  /* Styling portfolio section with flex */
+
+  .container-featured-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .gallery-flex {
+    width: 450px;
+  }
+
+  .project-text-group {
+    width: 100%;
+  }
+
+  /* .container-featured-projects img {
+    width: 400px;
+  } */
 }
 
 /* MEDIA QUERY FOR DESKTOP */
