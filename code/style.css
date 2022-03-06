@@ -132,7 +132,7 @@
 .container {
   margin: 0 auto;
   width: 320px;
-  padding: 41px 24px 41px 24px;
+  padding: 15px 24px 41px 24px;
   display: flex;
   flex-direction: column;
 }
@@ -158,7 +158,7 @@
 }
 
 .container .top-section {
-  margin-top: 12px;
+  margin-top: 22px;
 }
 
 .presentation-hello {
@@ -374,7 +374,7 @@ footer .big-project-heading {
   -webkit-text-fill-color: transparent;
   text-transform: lowercase;
   font-size: 30px;
-  margin-bottom: 25px;
+  margin: 35px 0;
 }
 
 .copyright {
