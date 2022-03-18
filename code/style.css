@@ -88,13 +88,14 @@
     #ffaeae 30%,
     #fe85aa 45%,
     #fd92b3 0,
-    #ff2525 60%,
-    #f74444 0,
-    #fffdfd 75%
+    #f75656 60%,
+    #ef6060 0,
+    #f18686 75%
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  max-width: 400px;
 }
 
 .profile-picture {
@@ -410,6 +411,7 @@ footer .big-project-heading {
     top: 270px;
     left: 150px;
     width: 420px;
+    margin-left: 8px;
   }
 
   .nav-icons {
@@ -453,17 +455,42 @@ footer .big-project-heading {
   }
 }
 
+/* MEDIA QUERY FOR LARGET TABLETS */
+@media screen and (min-width: 1000px) {
+  .portfolio-presentation {
+    top: 270px;
+    left: 150px;
+    width: 420px;
+    margin-left: 46px;
+  }
+}
+
 /* MEDIA QUERY FOR DESKTOP */
 @media screen and (min-width: 1200px) {
-  /* * {
-    font-size: 25px;
-  } */
   .container {
     width: 60%;
   }
 
   .container .top-section {
     margin-top: 60px;
+  }
+
+  .frontend-developer {
+    background: linear-gradient(
+      47deg,
+      #ff7c7c 15%,
+      #ff7878 0,
+      #ffaeae 30%,
+      #fe85aa 45%,
+      #fd92b3 0,
+      #fe724f 60%,
+      #ff5858 0,
+      #d98585 75%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    max-width: 400px;
   }
 
   .nav-icons {
