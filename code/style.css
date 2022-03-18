@@ -72,7 +72,8 @@
   line-height: 40px;
 }
 
-.portfolio-name {
+.portfolio-name,
+.portfolio-name > span {
   text-transform: uppercase;
   font-size: 17px;
   line-height: 22px;
