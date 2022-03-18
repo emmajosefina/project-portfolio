@@ -137,6 +137,14 @@
   flex-direction: column;
 }
 
+.skills-container {
+  margin: 0 auto;
+  width: 350px;
+  padding: 0 0 41px 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .container-featured-projects {
   padding: 5px 24px 0 24px;
 }
@@ -286,12 +294,14 @@
   display: flex;
   justify-content: center;
   font-size: 14px;
+  width: 100%;
 }
 
 .skills-child {
   display: flex;
   flex-direction: column;
   text-align: center;
+  width: 33%;
 }
 
 .skills-header {
@@ -302,7 +312,6 @@
 .skills-header-code {
   color: #a97d60;
   font-family: "Roboto", sans-serif;
-  width: 98px;
 }
 
 .for-more-nav-icons {
