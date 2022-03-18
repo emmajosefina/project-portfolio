@@ -520,26 +520,6 @@ footer .big-project-heading {
     width: 485px;
   }
 
-  .portfolio-presentation > h1 {
-    font-size: 62px;
-    line-height: 70px;
-  }
-
-  .portfolio-presentation > h2 {
-    font-size: 40px;
-    line-height: 78px;
-  }
-
-  .portfolio-name {
-    font-size: 28px;
-    line-height: 37px;
-  }
-
-  .portfolio-name > span {
-    font-weight: 600;
-    line-height: 37px;
-  }
-
   .big-project-heading h2 {
     font-size: 30px;
     line-height: 46px;
