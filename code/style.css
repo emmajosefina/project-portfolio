@@ -97,11 +97,6 @@
   background-clip: text;
 }
 
-.portfolio-name > span {
-  font-weight: 600;
-  letter-spacing: 0;
-}
-
 .profile-picture {
   width: 180px;
   border-radius: 50%;
