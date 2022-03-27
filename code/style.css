@@ -287,18 +287,26 @@
   color: #a97d60;
 }
 
-.skills-parent {
+.skills-parent-first {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 14px;
   width: 100%;
+}
+
+.skills-parent-second {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 1.5rem;
 }
 
 .skills-child {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 33%;
+  width: 50%;
 }
 
 .skills-header {
