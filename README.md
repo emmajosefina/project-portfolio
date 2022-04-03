@@ -17,4 +17,4 @@ My focus this week was about accessability, so I've used validators for HTML and
 
 # Link to deployed site 📱
 
-https://emmalindell.netlify.app/
+https://emmajosefina.se
