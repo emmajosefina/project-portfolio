@@ -182,6 +182,7 @@
   line-height: 1.4em;
 }
 
+
 .container-portfolio {
   margin: 0 auto;
   width: 320px;
@@ -468,7 +469,7 @@ footer .big-project-heading {
 @media screen and (min-width: 1000px) {
   .portfolio-presentation {
     top: 270px;
-    left: 150px;
+    left: 164px;
     width: 420px;
     margin-left: 46px;
   }
