@@ -315,6 +315,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+.skills-heading-style {
+margin-block-start: 0px;
+
+}
+
 .skills-header-code {
   color: #a97d60;
   font-family: "Roboto", sans-serif;
