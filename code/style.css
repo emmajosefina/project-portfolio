@@ -525,7 +525,7 @@ footer .big-project-heading {
   .portfolio-presentation {
     width: 607px;
     position: absolute;
-    left: 256px;
+    left: 316px;
     top: 206px;
     margin-top: 0;
     margin-left: 0;
@@ -543,5 +543,51 @@ footer .big-project-heading {
 
   .nav-icons .fa-stack-overflow {
     width: 14px;
+  }
+}
+
+
+/* SMALL LAPTOP */
+@media screen and (min-width: 1200px) {
+  .portfolio-presentation {
+    left: 244px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .portfolio-presentation {
+    left: 264px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .portfolio-presentation {
+    left: 284px;
+  }
+}
+
+/* MEDIA QUERY FOR LARGER DESKTOP */
+@media screen and (min-width: 1700px) {
+  .portfolio-presentation {
+    left: 353px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .portfolio-presentation {
+    left: 350px;
+  }
+}
+
+
+@media screen and (min-width: 2100px) {
+  .portfolio-presentation {
+    left: 431px;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+  .portfolio-presentation {
+    left: 510px;
   }
 }
